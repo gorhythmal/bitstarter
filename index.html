@@ -10,6 +10,7 @@
 	<!--<link type="text/css" rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-2.3.2.css"/>-->
 	<script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
 	<script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
+	<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 	<link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" rel="stylesheet" type="text/css">
 	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800" rel="stylesheet" type="text/css">
 	<style type="text/css">
@@ -80,7 +81,7 @@
 		padding: 2.5% 0%;
 	    }
 	    .footer {
-		color: #cccccc;
+		color: #444444;
 		text-align: center;
 	    }
 	    .footer p {
@@ -91,6 +92,12 @@
 	    }
 
 	</style>
+	<script type="text/x-mathjax-config">
+	    MathJax.Hub.Config({
+		tex2jax: { inlineMath: [['$','$'],['\\(','\\)']] }
+	    });
+	</script>
+
     </head>
     <body>
 	<div class="navbar navbar-inverse navbar-fixed-top">
@@ -136,12 +143,12 @@
 			<div class="statistics">
 			    <div class="span4">
 				<div class="linediv-l">
-				    <h3>1000</h3> <p>backers</p>
+				    <h3>$\log_{n}n$</h3> <p>backers</p>
 				</div>
 			    </div>
 			    <div class="span4">
 				<div class="linediv-c">
-				    <h3>$6,000</h3> <p> of $10,000</p>
+				    <h3>$0,000</h3> <p> of $10,000</p>
 				</div>
 			    </div>
 			    <div class="span4">
@@ -153,8 +160,8 @@
 		    </div>
 		    <div class="span10 offset1">
 			<div class="thermometer progress active">
-			    <div class="bar bar-success" style="width: 60%;"></div>
-			    <div class="bar bar-warning" style="width: 40%;"></div>
+			    <div class="bar bar-success" style="width: 80%;"></div>
+			    <div class="bar bar-warning" style="width: 20%;"></div>
 			</div>
 		    </div>
 		    <div class="span6 offset3 order">
@@ -179,7 +186,7 @@
 	    <div class="row-fluid section2">
 		<div class="span5 offset1 copy copy-right">
 		    <p>
-		    Thou sayest, Men cannot admire the sharpness of thy wits.- Be it so: but there are many other things of which thou canst not say, I am not formed for them by nature. Show those qualities then which are altogether in thy power, sincerity, gravity, endurance of labour, aversion to pleasure, contentment with thy portion and with few things, benevolence, frankness, no love of superfluity, freedom from trifling magnanimity. 
+		    Thou sayest, Men cannot admire the sharpness of thy wits.- Be it so: but there are many other things of which thou canst not say, I am not formed for them by nature. Show those qualities then which are altogether in thy power, sincerity, gravity, endurance of labour, aversion to pleasure, contentment with thy portion and with few things, benevolence, frankness, no love of superfluity, freedom from trifling, magnanimity. 
 		    </p>
 		</div>
 		<div class="span5 asset">
@@ -215,6 +222,8 @@
 	    </div>
 	    <div class="row-fluid footer">
 		<div class="span12">
+		    <p>Credits: <a href="http://thyme-and-tomes.tumblr.com/">Thyme and Tomes</a>, <a href="http://funnychap.tumblr.com/">Funny Chap</a>, James Joyce, Marcus Aurelius, and <a href="http://gifwarehouse.tumblr.com/">Gif Warehouse</a>.<br>
+		    Moarr Credits: Coursera Startup Engineering with Balaji Srinivasan. This is a toy site typed from assignment 4. Real product will be here hasta pronto.</p>
 		    <p>This work is licensed under the <a href="http://creativecommons.org/licenses/by-sa/3.0">CC By-SA 3.0</a>, like a BOSS.</p>
 		</div>
 	    </div>
